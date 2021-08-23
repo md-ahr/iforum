@@ -16,7 +16,7 @@
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
-          <div class="container-fluid">
+          <div class="container">
             <a class="navbar-brand" href="<?= htmlentities($_SERVER['PHP_SELF']) ?>">iForum</a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -56,6 +56,61 @@
             </div>
       </div>
     </nav>
+
+    <main class="main-section container my-5 pb-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://source.unsplash.com/500x400/?computer" class="card-img-top" alt="image" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Card title</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, quos expedita. Quaerat ipsum reprehenderit doloremque accusantium, aspernatur eaque! Illum tempora id dolor, temporibus optio pariatur atque eveniet? Molestiae, assumenda cumque.</p>
+                        <button class="btn btn-info text-light fw-bold py-2 px-4">See Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://source.unsplash.com/500x400/?cofee" class="card-img-top" alt="image" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Card title</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, quos expedita. Quaerat ipsum reprehenderit doloremque accusantium, aspernatur eaque! Illum tempora id dolor, temporibus optio pariatur atque eveniet? Molestiae, assumenda cumque.</p>
+                        <button class="btn btn-info text-light fw-bold py-2 px-4">See Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://source.unsplash.com/500x400/?design" class="card-img-top" alt="image" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Card title</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, quos expedita. Quaerat ipsum reprehenderit doloremque accusantium, aspernatur eaque! Illum tempora id dolor, temporibus optio pariatur atque eveniet? Molestiae, assumenda cumque.</p>
+                        <button class="btn btn-info text-light fw-bold py-2 px-4">See Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://source.unsplash.com/500x400/?architecture" class="card-img-top" alt="image" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Card title</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, quos expedita. Quaerat ipsum reprehenderit doloremque accusantium, aspernatur eaque! Illum tempora id dolor, temporibus optio pariatur atque eveniet? Molestiae, assumenda cumque.</p>
+                        <button class="btn btn-info text-light fw-bold py-2 px-4">See Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://source.unsplash.com/500x400/?basic" class="card-img-top" alt="image" />
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Card title</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, quos expedita. Quaerat ipsum reprehenderit doloremque accusantium, aspernatur eaque! Illum tempora id dolor, temporibus optio pariatur atque eveniet? Molestiae, assumenda cumque.</p>
+                        <button class="btn btn-info text-light fw-bold py-2 px-4">See Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer class="bg-info text-light py-2 position-fixed bottom-0 w-100">
         <p class="small text-center mb-0">&copy; 2021 <a href="https://www.iamhalim.com">iamhalim.com</a> all rights reserved</p>
